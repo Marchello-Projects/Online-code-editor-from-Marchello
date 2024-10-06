@@ -1,0 +1,30 @@
+/* fonts */
+
+/* font-family: "Overpass Mono", monospace; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.heading-card {
+  width: 1086px;
+  height: 343px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.languages-card {
+}
+
+.gray-box {
+  background-color: #403f4d;
+  border-radius: 10px;
+  width: 567px;
+  height: 365px;
+}
