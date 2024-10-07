@@ -9,6 +9,10 @@
   justify-content: $justify;
 }
 
+body {
+  display: flex;
+}
+
 .blockCode {
   background: #000;
   width: 620px;
@@ -18,12 +22,34 @@
     align-items: center;
     width: 620px;
     height: 80px;
-    background: rgba(0, 255, 0, 0.061);
     position: fixed;
     &_textsLogo {
-      width: 196px;
-      height: 43px;
-      background: violet;
+      width: 198px;
+      height: 50px;
+      &_titleText {
+        color: #FFF;
+        font-family: "Overpass Mono";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &_nameText {
+        color: #FFF;
+        font-family: "Overpass Mono";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
   }
+  &_programmingLanguageBlock {
+    // Тут ваш scss код
+  }
+}
+
+.blockResult {
+  width: 100%;
+  height: 100vh;
 }
