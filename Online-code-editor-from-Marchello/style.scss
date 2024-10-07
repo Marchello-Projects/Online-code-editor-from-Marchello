@@ -14,8 +14,16 @@
   width: 620px;
   height: 100vh;
   &_logoBlock {
-    width: 605px;
+    display: flex;
+    align-items: center;
+    width: 620px;
     height: 80px;
     background: rgba(0, 255, 0, 0.061);
+    position: fixed;
+    &_textsLogo {
+      width: 196px;
+      height: 43px;
+      background: violet;
+    }
   }
 }
