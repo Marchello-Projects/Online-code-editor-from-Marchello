@@ -1,0 +1,21 @@
+@mixin FlexElement($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+  display: flex;
+  justify-content: $justify;
+}
+
+.blockCode {
+  background: #000;
+  width: 620px;
+  height: 100vh;
+  &_logoBlock {
+    width: 605px;
+    height: 80px;
+    background: rgba(0, 255, 0, 0.061);
+  }
+}
