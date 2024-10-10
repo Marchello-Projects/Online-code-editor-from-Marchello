@@ -1,39 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online code editor from Marchello</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./faviconOCEFM" sizes="48x48" />
-    <link rel="icon" type="image/svg+xml" href="./faviconOCEFM/favicon.svg" />
-    <link rel="shortcut icon" href="./faviconOCEFM/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./faviconOCEFM/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="./faviconOCEFM/site.webmanifest" />
-  </head>
-  <body>
-    <div class="blockCode">
-      <div class="blockCode_logoBlock">
-        <svg xmlns="http://www.w3.org/2000/svg" width="102" height="71" viewBox="0 0 102 71" fill="none">
-          <path d="M25.7099 23.2252L12.561 34.0713L25.7099 46.7252M58.5822 23.2252L71.7311 34.0713L58.5822 46.7252M48.7205 11.4752L35.5716 58.4752" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online code editor from Marchello</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./faviconOCEFM" sizes="48x48" />
+  <link rel="icon" type="image/svg+xml" href="./faviconOCEFM/favicon.svg" />
+  <link rel="shortcut icon" href="./faviconOCEFM/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./faviconOCEFM/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+  <link rel="manifest" href="./faviconOCEFM/site.webmanifest" />
+</head>
+
+<body>
+  <div class="blockCode">
+    <div class="blockCode_logoBlock">
+      <svg xmlns="http://www.w3.org/2000/svg" width="102" height="71" viewBox="0 0 102 71" fill="none">
+        <path
+          d="M25.7099 23.2252L12.561 34.0713L25.7099 46.7252M58.5822 23.2252L71.7311 34.0713L58.5822 46.7252M48.7205 11.4752L35.5716 58.4752"
+          stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <div class="blockCode_logoBlock_textsLogo">
+        <p class="blockCode_logoBlock_textsLogo_titleText">Online code editor from:</p>
+        <p class="blockCode_logoBlock_textsLogo_nameText">Marchello</p>
+      </div>
+    </div>
+    <div class="blockCode_programmingLanguageBlock">
+      <!--Тут ваш html код-->
+      <div class="blockCode__wrapper-html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M2.99818 32.4013L0.109375 0H31.8523L28.9605 32.3962L15.9614 36L2.99818 32.4013Z" fill="#E44D26" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M15.9808 33.2454L26.4847 30.3334L28.956 2.64929H15.9808V33.2454Z" fill="#F16529" />
+          <path d="M10.7224 14.6665H15.9809V18.6403H7.08806L6.01624 6.62323H15.9809V10.5972H10.3592L10.7224 14.6665Z"
+            fill="#EBEBEB" />
+          <path
+            d="M15.9634 24.9917L15.9809 24.9871V29.1216L15.9626 29.1267L7.82236 26.8669L7.26562 20.6273H11.2548L11.5377 23.7967L15.9634 24.9917Z"
+            fill="#EBEBEB" />
+          <path d="M15.9671 6.62323H25.9218L25.5659 10.5972H15.9671V6.62323Z" fill="white" />
+          <path
+            d="M15.9671 18.6403V14.6665H25.2043L25.1074 15.7336L24.1138 26.8669L15.9671 29.1248V24.9904L20.3992 23.7942L20.8605 18.6403H15.9671Z"
+            fill="white" />
         </svg>
-        <div class="blockCode_logoBlock_textsLogo">
-          <p class="blockCode_logoBlock_textsLogo_titleText">Online code editor from:</p>
-          <p class="blockCode_logoBlock_textsLogo_nameText">Marchello</p>
-        </div>
+        <h2 class="blockCode__title-html">HTML</h2>
       </div>
-      <div class="blockCode_programmingLanguageBlock">
-        <!--Тут ваш html код-->
+      <div class="blockCode__container-html"></div>
+      <div class="blockCode__wrapper-css">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M2.99826 32.4011L0.109375 0H31.8537L28.9617 32.3958L15.9623 36L2.99826 32.4011Z" fill="#0071BC" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16.0082 33.2434L26.4993 30.3573L28.9573 2.69834H16.0082V33.2434Z" fill="#29ABE2" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M6.72205 14.6024L7.07004 18.5704L16.0082 14.6024V10.6279L6.72205 14.6024Z" fill="#B3B3B3" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M25.9075 6.38536L16.0082 10.6279V14.6024L25.5661 10.3534L25.9075 6.38536Z" fill="#E6E6E6" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16.0082 24.9847L15.9775 24.9893L11.5448 23.7988L11.2552 20.6338H7.26581L7.82252 26.8692L15.9766 29.1269L16.0082 29.1194V24.9847Z"
+            fill="#E6E6E6" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16.0082 14.6024V18.5704H20.8612L20.4202 23.7583L16.0082 24.9881V29.1225L24.1352 26.8648L25.2054 14.6024H16.0082Z"
+            fill="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0082 14.6024H6.72205L7.07004 18.5704H16.0082V14.6024Z"
+            fill="#E6E6E6" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16.0082 10.3534V6.38536H15.9679H6.01654L6.36866 10.3534H16.0082Z" fill="#E6E6E6" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16.0082 6.38536V10.3036V10.3534H25.5661L25.9075 6.38536H16.0082Z" fill="white" />
+        </svg>
+        <h2 class="blockCode__title-css">CSS</h2>
       </div>
+      <div class="blockCode__container-css"></div>
     </div>
-    <div class="blockResult">
+  </div>
+  <div class="blockResult">
 
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

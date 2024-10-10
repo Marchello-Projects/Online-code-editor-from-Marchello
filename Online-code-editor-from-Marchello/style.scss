@@ -46,6 +46,59 @@ body {
   }
   &_programmingLanguageBlock {
     // Тут ваш scss код
+    .blockCode__wrapper-html {
+      margin-top: 98px;
+      margin-left: 27px;
+      display: flex;
+      gap: 4px;
+
+      .blockCode__title-html {
+        color: #FFFFFF;
+        font-family: 'Overpass Mono', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 45.58px;
+      
+      }
+      
+    }
+    .blockCode__container-html {
+      background-color: #403F4D;
+      width: 567px;
+      height: 365px;
+      top: 147px;
+      left: 27px;
+      gap: 0px;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 0px;
+      margin: 0px 26px 0px 27px;
+    }
+    .blockCode__wrapper-css {
+      margin-top: 15px;
+      margin-left: 27px;
+      display: flex;
+      gap: 4px;
+
+      .blockCode__title-css {
+        color: #FFFFFF;
+        font-family: 'Overpass Mono', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 45.58px;
+      
+      }
+    }
+    .blockCode__container-css {
+      background-color: #403F4D;
+      width: 567px;
+      height: 365px;
+      top: 147px;
+      left: 27px;
+      gap: 0px;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 0px;
+      margin-left: 27px;
+    }
   }
 }
 
