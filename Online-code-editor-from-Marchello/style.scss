@@ -20,9 +20,10 @@ body {
   &_logoBlock {
     display: flex;
     align-items: center;
-    width: 620px;
+    width: 605px;
     height: 80px;
     position: fixed;
+    background: #000;
     &_textsLogo {
       width: 198px;
       height: 50px;
@@ -45,13 +46,14 @@ body {
     }
   }
   &_programmingLanguageBlock {
+    height: 100vh;
+    overflow-y: scroll;
     // Тут ваш scss код
     .blockCode__wrapper-html {
       margin-top: 98px;
       margin-left: 27px;
       display: flex;
       gap: 4px;
-
       .blockCode__title-html {
         color: #FFFFFF;
         font-family: 'Overpass Mono', sans-serif;
@@ -98,6 +100,39 @@ body {
       border-radius: 10px 10px 10px 10px;
       opacity: 0px;
       margin-left: 27px;
+    }
+    &_js-wraper {
+      display: flex;
+      flex-direction: column;
+      background-color: #000000;
+      width: 620px;
+      margin-top: 15px;
+      &_js-content {
+        display: flex;
+        gap: 3px;
+        margin-left: 26.5px;
+        &_js-icon {
+          border-radius: 5px;
+        }
+        &_js-heading {
+          color: #ffffff;
+          font-family: 'Overpass Mono', monospace;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+      }
+      &_js-box {
+        width: 567px;
+        height: 365px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #403f4d;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 77px;
+      }
     }
   }
 }
